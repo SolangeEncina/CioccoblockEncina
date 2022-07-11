@@ -253,12 +253,17 @@ footer{
     justify-content: space-around;
 }
 
+
 a {
-    color: #370f00;
+    color: #ffffff;
     transition: 0.2s;
 }
 a:hover {
     color: #8c56dc;
+}
+
+i {
+    font-size: 30px;
 }
 
 .contenedorform__grid {
