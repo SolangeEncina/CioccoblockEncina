@@ -1,0 +1,22 @@
+{
+  "name": "cioccoblockencina",
+  "version": "1.0.0",
+  "description": "Proyecto sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolangeEncina/CioccoblockEncina.git"
+  },
+  "author": "Solange",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SolangeEncina/CioccoblockEncina/issues"
+  },
+  "homepage": "https://github.com/SolangeEncina/CioccoblockEncina#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
