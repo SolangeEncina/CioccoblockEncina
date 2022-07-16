@@ -25,11 +25,12 @@ body {
   font-family: "Helvetica-Regular";
   background-color: #ffeffe;
   color: #2a2a2b;
-  cursor: url(./images/cursor.png), pointer; }
+  cursor: url(../images/cursor.png), pointer; }
 
 a {
   color: #ffffff;
-  transition: 0.2s; }
+  transition: 0.2s;
+  cursor: url(../images/click.png), pointer; }
   a:hover {
     color: #8c56dc; }
 
