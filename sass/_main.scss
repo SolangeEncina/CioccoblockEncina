@@ -96,8 +96,9 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin-left: 2rem;
-        margin-right: 1rem;
+        margin-right: 2rem;
         align-items: center;
+        justify-items: center;
     }
     
     .contenedorform {

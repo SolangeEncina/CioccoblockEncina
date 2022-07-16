@@ -202,8 +202,9 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-left: 2rem;
-  margin-right: 1rem;
-  align-items: center; }
+  margin-right: 2rem;
+  align-items: center;
+  justify-items: center; }
 
 .contenedorform {
   width: 95%;
@@ -344,7 +345,8 @@ input {
   .contenedorform__grid {
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center; }
+    align-items: center;
+    justify-items: center; }
   .nuestravideo {
     flex-direction: column;
     width: 120vh;
@@ -376,7 +378,8 @@ input {
   .contenedorform__grid {
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center; }
+    align-items: center;
+    justify-items: center; }
   .nuestravideo {
     flex-direction: column;
     width: 100vh;
@@ -457,7 +460,8 @@ input {
   .contenedorform__grid {
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center; }
+    align-items: center;
+    justify-items: center; }
   .cardcombos {
     width: 320px;
     margin: 0%;
@@ -567,7 +571,8 @@ input {
   .contenedorform__grid {
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center; }
+    align-items: center;
+    justify-items: center; }
   .cardcombosgrandes {
     width: 320px;
     margin: 0%;
