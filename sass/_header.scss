@@ -1,5 +1,5 @@
 header {
-    background-color: #C4C4C4;
+    background-color: $grisclaro;
     display: flex;
     justify-content: center;
     height: 10rem;
@@ -26,14 +26,14 @@ img {
     }
 
     ul li a{
-        color: #333333;
+        color: $grisintermedio;
         border-bottom: solid 1px;
     }
 }
 
 .logoHeader {
     font-family: BalooTamma-Regular;
-    color: #271203;
+    color: $marron;
     font-size: 2rem;
     padding-right: 1.5rem;
     padding-left: 1rem;
