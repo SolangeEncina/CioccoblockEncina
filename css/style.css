@@ -111,7 +111,6 @@ img {
   padding-left: 1rem; }
 
 footer {
-  background: #bababa;
   background: linear-gradient(90deg, #bababa 0%, #f2ccf7 60%, #d4f3f4 100%);
   height: 20vh;
   display: flex;
@@ -130,9 +129,8 @@ footer {
   justify-content: center;
   z-index: 0;
   margin: 1rem; }
-
-.cardcombos:hover {
-  transform: translateY(-3%); }
+  .cardcombos hover {
+    transform: translateY(-3%); }
 
 .cardcombospequenos {
   background-color: #ffffff;
@@ -146,9 +144,8 @@ footer {
   justify-content: center;
   margin: 1rem;
   z-index: 0; }
-
-.cardcombospequenos:hover {
-  transform: translateY(-3%); }
+  .cardcombospequenos:hover {
+    transform: translateY(-3%); }
 
 .cardcombosgrandes {
   background-color: #ffffff;
@@ -163,9 +160,8 @@ footer {
   padding: 17px;
   position: relative;
   z-index: 0; }
-
-.cardcombosgrandes:hover {
-  transform: translateY(-3%); }
+  .cardcombosgrandes:hover {
+    transform: translateY(-3%); }
 
 .cardimg {
   width: 280px;
@@ -193,10 +189,9 @@ footer {
   margin-top: 1rem;
   border-radius: 10px;
   transition: 0.2s; }
-
-.button:hover {
-  background: #ea55ca;
-  color: #a9fff2; }
+  .button:hover {
+    background: #ea55ca;
+    color: #96f9ea; }
 
 .contenedorform__grid {
   display: grid;
@@ -283,13 +278,12 @@ input {
   font-family: Helvetica-Bold;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem; }
-
-.contacto span {
-  color: #ff85e2; }
+  .contacto span {
+    color: #ff85e2; }
 
 .nuestra {
   display: flex;
-  background-color: white;
+  background-color: #ffffff;
   color: #271203;
   margin: 1rem;
   background-color: #ffeffe; }
