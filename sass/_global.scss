@@ -28,17 +28,17 @@
 
 body {
     font-family:"Helvetica-Regular" ;
-    background-color:#ffeffe ;
-    color:#2a2a2b ;
+    background-color: $rosado;
+    color: $grisintermedio;
     cursor: url(../images/cursor.png), pointer ;
 }
 
 a {
-    color: #ffffff;
+    color: $blanco;
     transition: 0.2s;
     cursor: url(../images/click.png), pointer ;
     &:hover {
-        color: #8c56dc;
+        color: $violeta;
     }
 }
 
@@ -75,7 +75,7 @@ i {
     height: 7rem;
     margin-top: 1rem;
     color: transparent;
-    -webkit-text-stroke: 1px #2a2a2b ;
+    -webkit-text-stroke: 1px $marron;
     text-align: center;
     background-image: url(../images/blob.svg);
     background-repeat: no-repeat;
