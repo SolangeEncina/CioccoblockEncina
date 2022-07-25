@@ -1,0 +1,41 @@
+header {
+    background-color: $grisclaro;
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+img {
+    display: block;
+}
+
+.navegacion {
+    display: flex;
+    flex-direction:initial;
+    justify-content: space-around;
+    align-items:center;
+    width: 90vw;
+
+    ul {
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+    }
+
+    ul li a{
+        color: $grisintermedio;
+        border-bottom: solid 1px;
+    }
+}
+
+.logoHeader {
+    font-family: BalooTamma-Regular;
+    color: $marron;
+    font-size: 2rem;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+}
+
