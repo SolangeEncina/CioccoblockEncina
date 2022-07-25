@@ -60,8 +60,12 @@
         border-radius: 10px;
     }
     
+<<<<<<< HEAD
     // MIXIN
     @mixin button-base {
+=======
+    .button {
+>>>>>>> origin/sass
         background-color: $marron;
         color: $blanco;
         padding: 10px 20px;
@@ -74,12 +78,16 @@
     }
     }
 
+<<<<<<< HEAD
     .button {
         @include button-base
     }
 // FIN MIXIN
 
  // FORMULARIO
+=======
+    // FORMULARIO
+>>>>>>> origin/sass
 
     .contenedorform__grid {
         display: grid;
