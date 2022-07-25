@@ -80,7 +80,7 @@
         }
     
         .button {
-            @include button-base
+            @include button-base;
         }
     // FIN MIXIN
 
@@ -185,3 +185,20 @@
         color: $rosa;
     }
     }
+
+    // MAPS & BUCLE EACH
+$botones: (
+    Enviar: $lila,
+    Limpiar: $rosa,
+);
+
+@each $nombre, $color in $botones {
+.link-#{$nombre} {
+    text-decoration: none;
+    background-color: $color;
+    padding: 10px;
+    border-radius: 10px;
+    color: $marron;
+    font-family: "Helvetica-Bold";
+}
+}

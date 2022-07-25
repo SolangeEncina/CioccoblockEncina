@@ -269,6 +269,22 @@ input {
   .contacto span {
     color: #ff85e2; }
 
+.link-Enviar {
+  text-decoration: none;
+  background-color: #edd3ff;
+  padding: 10px;
+  border-radius: 10px;
+  color: #271203;
+  font-family: "Helvetica-Bold"; }
+
+.link-Limpiar {
+  text-decoration: none;
+  background-color: #ff85e2;
+  padding: 10px;
+  border-radius: 10px;
+  color: #271203;
+  font-family: "Helvetica-Bold"; }
+
 .nuestra {
   display: flex;
   background-color: #ffffff;
