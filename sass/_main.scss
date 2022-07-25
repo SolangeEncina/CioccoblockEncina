@@ -16,7 +16,6 @@
     transform: translateY(-3%);
     }
 }
- 
     // EXTEND
     
     .cardcombosgrandes {
@@ -43,13 +42,20 @@
         } 
 
 // FIN EXTEND
-
+    
     .cardimg {
         width: 280px;
         overflow: hidden;
-        & img {
-            object-fit: cover;
-        }
+    }
+    
+    .cardimg img {
+        object-fit: cover;
+    }
+    
+    .cardcombosgrandes span {
+        position: absolute;
+        top: 20px;
+        right: 30px ; 
     }
     
     .span {
@@ -59,35 +65,26 @@
         padding: 6px;
         border-radius: 10px;
     }
+        // MIXIN
+        @mixin button-base {
+            background-color: $marron;
+            color: $blanco;
+            padding: 10px 20px;
+            margin-top: 1rem;
+            border-radius: 10px;
+            transition: 0.2s;
+            &:hover {
+            background: $fuscia;
+            color: $celeste;
+        }
+        }
     
-<<<<<<< HEAD
-    // MIXIN
-    @mixin button-base {
-=======
-    .button {
->>>>>>> origin/sass
-        background-color: $marron;
-        color: $blanco;
-        padding: 10px 20px;
-        margin-top: 1rem;
-        border-radius: 10px;
-        transition: 0.2s;
-        &:hover {
-        background: $fuscia;
-        color: $celeste;
-    }
-    }
+        .button {
+            @include button-base
+        }
+    // FIN MIXIN
 
-<<<<<<< HEAD
-    .button {
-        @include button-base
-    }
-// FIN MIXIN
-
- // FORMULARIO
-=======
     // FORMULARIO
->>>>>>> origin/sass
 
     .contenedorform__grid {
         display: grid;
