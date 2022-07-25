@@ -24,11 +24,7 @@
 body {
   font-family: "Helvetica-Regular";
   background-color: #ffeffe;
-<<<<<<< HEAD
   color: #333333;
-=======
-  color: #2a2a2b;
->>>>>>> origin/sass
   cursor: url(../images/cursor.png), pointer; }
 
 a {
@@ -67,11 +63,7 @@ i {
   height: 7rem;
   margin-top: 1rem;
   color: transparent;
-<<<<<<< HEAD
   -webkit-text-stroke: 1px #271203;
-=======
-  -webkit-text-stroke: 1px #2a2a2b;
->>>>>>> origin/sass
   text-align: center;
   background-image: url(../images/blob.svg);
   background-repeat: no-repeat;
@@ -119,17 +111,12 @@ img {
   padding-left: 1rem; }
 
 footer {
-<<<<<<< HEAD
-=======
-  background: #bababa;
->>>>>>> origin/sass
   background: linear-gradient(90deg, #bababa 0%, #f2ccf7 60%, #d4f3f4 100%);
   height: 20vh;
   display: flex;
   align-items: center;
   justify-content: space-around; }
 
-<<<<<<< HEAD
 .cardcombos, .cardcombosgrandes, .cardcombospequenos {
   background-color: #ffffff;
   border-radius: 30px;
@@ -138,21 +125,11 @@ footer {
   width: 330px;
   display: flex;
   padding: 17px;
-=======
-.cardcombos {
-  background-color: white;
-  border-radius: 30px;
-  color: #271203;
-  height: 350px;
-  width: 330px;
-  display: flex;
->>>>>>> origin/sass
   flex-direction: column;
   align-items: center;
   justify-content: center;
   z-index: 0;
   margin: 1rem; }
-<<<<<<< HEAD
   .cardcombos:hover, .cardcombosgrandes:hover, .cardcombospequenos:hover {
     transform: translateY(-3%); }
 
@@ -173,52 +150,10 @@ footer {
   background-color: #271203;
   color: #ffffff;
   font-family: "Helvetica-Oblique"; }
-=======
-
-.cardcombos:hover {
-  transform: translateY(-3%); }
-
-.cardcombospequenos {
-  background-color: white;
-  border-radius: 30px;
-  color: #271203;
-  height: 280px;
-  width: 330px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem;
-  z-index: 0; }
-
-.cardcombospequenos:hover {
-  transform: translateY(-3%); }
-
-.cardcombosgrandes {
-  background-color: white;
-  border-radius: 30px;
-  color: #271203;
-  width: 330px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem;
-  padding: 17px;
-  position: relative;
-  z-index: 0; }
-
-.cardcombosgrandes:hover {
-  transform: translateY(-3%); }
->>>>>>> origin/sass
 
 .cardimg {
   width: 280px;
   overflow: hidden; }
-<<<<<<< HEAD
-  .cardimg img {
-    object-fit: cover; }
-=======
 
 .cardimg img {
   object-fit: cover; }
@@ -227,7 +162,6 @@ footer {
   position: absolute;
   top: 20px;
   right: 30px; }
->>>>>>> origin/sass
 
 .span {
   background: #bf7200;
@@ -237,27 +171,15 @@ footer {
   border-radius: 10px; }
 
 .button {
-<<<<<<< HEAD
   background-color: #271203;
   color: #ffffff;
-=======
-  background-color: #1e0601;
-  color: white;
->>>>>>> origin/sass
   padding: 10px 20px;
   margin-top: 1rem;
   border-radius: 10px;
   transition: 0.2s; }
-<<<<<<< HEAD
   .button:hover {
     background: #ea55ca;
     color: #96f9ea; }
-=======
-
-.button:hover {
-  background: #ea55ca;
-  color: #a9fff2; }
->>>>>>> origin/sass
 
 .contenedorform__grid {
   display: grid;
@@ -271,11 +193,7 @@ footer {
   width: 95%;
   max-width: 500px;
   margin: 1rem;
-<<<<<<< HEAD
   background-color: #ffffff;
-=======
-  background-color: white;
->>>>>>> origin/sass
   border-radius: 7px;
   margin-left: 1rem;
   margin-right: 1rem; }
@@ -285,21 +203,12 @@ footer {
   max-width: 600px;
   max-height: 410px;
   margin: 1rem;
-<<<<<<< HEAD
   background-color: #ffffff;
   border-radius: 7px; }
 
 .form_titulo {
   background-color: #5f5f5f;
   color: #ffffff;
-=======
-  background-color: white;
-  border-radius: 7px; }
-
-.form_titulo {
-  background-color: #868686;
-  color: white;
->>>>>>> origin/sass
   padding: 1rem;
   text-align: center;
   font-weight: 100;
@@ -308,11 +217,7 @@ footer {
   border-radius: 1rem;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-<<<<<<< HEAD
   border-bottom: 5px solid #ffeffe; }
-=======
-  border-bottom: 5px solid #ff85e2; }
->>>>>>> origin/sass
 
 .form_subtitulo p {
   font-family: Helvetica-Bold;
@@ -352,11 +257,7 @@ input {
   max-width: 600px;
   max-height: 450px;
   margin: 1rem;
-<<<<<<< HEAD
   background-color: #ffffff;
-=======
-  background-color: white;
->>>>>>> origin/sass
   border-radius: 7px; }
 
 .contacto {
@@ -365,7 +266,6 @@ input {
   font-family: Helvetica-Bold;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem; }
-<<<<<<< HEAD
   .contacto span {
     color: #ff85e2; }
 
@@ -373,16 +273,6 @@ input {
   display: flex;
   background-color: #ffffff;
   color: #271203;
-=======
-
-.contacto span {
-  color: #f78bfb; }
-
-.nuestra {
-  display: flex;
-  background-color: white;
-  color: #370f00;
->>>>>>> origin/sass
   margin: 1rem;
   background-color: #ffeffe; }
 
@@ -421,12 +311,7 @@ input {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     justify-items: center; }
-<<<<<<< HEAD
   .navegacion .paginas {
-=======
-  .navegacion
-.paginas {
->>>>>>> origin/sass
     display: inline-block; } }
 
 @media screen and (max-width: 980px) {
@@ -435,12 +320,7 @@ input {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     justify-items: center; }
-<<<<<<< HEAD
   .navegacion .paginas {
-=======
-  .navegacion
-.paginas {
->>>>>>> origin/sass
     display: inline-block; }
   .contenedorform__grid {
     display: grid;
@@ -472,12 +352,7 @@ input {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     justify-items: center; }
-<<<<<<< HEAD
   .navegacion .paginas {
-=======
-  .navegacion
-.paginas {
->>>>>>> origin/sass
     display: inline-block; }
   .contenedorform__grid {
     display: grid;
@@ -558,23 +433,14 @@ input {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     justify-items: center; }
-<<<<<<< HEAD
   .navegacion .paginas {
-=======
-  .navegacion
-.paginas {
->>>>>>> origin/sass
     display: inline-block; }
   .contenedorform__grid {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center; }
-<<<<<<< HEAD
   .cardcombos, .cardcombosgrandes, .cardcombospequenos {
-=======
-  .cardcombos {
->>>>>>> origin/sass
     width: 320px;
     margin: 0%;
     margin-top: 1rem; }
@@ -677,12 +543,7 @@ input {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     justify-items: center; }
-<<<<<<< HEAD
   .navegacion .paginas {
-=======
-  .navegacion
-.paginas {
->>>>>>> origin/sass
     display: inline-block; }
   .contenedorform__grid {
     display: grid;
